@@ -21,9 +21,9 @@ if __name__ == '__main__':
     init_water = time()
     init_eyes = time()
     init_exercise = time()
-    watersecs = 60
-    exsecs = 120
-    eyessecs = 45
+    watersecs = 50*60
+    exsecs = 55*60
+    eyessecs = 45*60
 
     while True:
         if time() - init_water > watersecs:
